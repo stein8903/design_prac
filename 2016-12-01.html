@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>2016-12-01</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="2016-12-01.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script>
+		//トップページへ
+		$(function(){
+			$("#toTop").click(function(){
+				$("html,body").animate({
+					scrollTop:0
+				},400)
+			});
+		});
+
+		//アーコディオン
+		$(function(){
+			$("#sideBar dt#web").click(function(){
+				$("#sideBar dd#web").slideToggle();
+			});
+		});
+	</script>
+</head>
+<body>
+	<!--ヘッダー-->
+	<header>
+		<div id="headerInner" class="clearfix">
+			<div id="headerLeft">
+				<h1>学生向けウェブデザイン講座ならNEST school</h1>
+				<img src="images/nest-school.gif" alt="nest-school">
+			</div>
+			<div id="headerRight">
+				<div id="subNav">
+					<ul class="clearfix">
+						<li><a href="">お申し込みはこちら</a></li>
+						<li><a href="">よくあるご質問</a></li>
+					</ul>
+				</div>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="">コース紹介</a></li>
+						<li><a href="">講師紹介</a></li>
+						<li><a href="">受講者の声</a></li>
+						<li><a href="">お問い合わせ</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!--メイン-->
+	<div id="main">
+		<div id="mainInner">
+			<img src="images/main.jpg" alt="クリエイティブスクール">
+		</div>
+	</div>
+
+	<!--コンテンツ-->
+	<div id="contents" class="clearfix">
+		<!--ニュース-->
+		<div id="news">
+			<div class="redTop"></div>
+			<div id="newsInner">
+				<h2>最新ニュース</h2>
+				<p id="newsList"><a href="##">→最新ニュース一覧</a></p>
+				<div class="clear"></div>
+				<dl>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+					<dt>2013-11-01</dt>
+					<dd>事業内容を更新しました</dd>
+				</dl>
+			</div>
+		</div>
+
+		<!--受講者の声-->
+		<div id="voice">
+			<div class="redTop"></div>
+			<div id="voiceInner">
+				<h2>最新ニュース</h2>
+				<p id="newsList"><a href="##">→最新ニュース一覧</a></p>
+				<div class="clear"></div>
+				<div id="voiceBottom">
+					<img src="images/voiceImg.jpg" alt="田村さん">
+					<dl>
+						<dt>ウェブデザイナー育成コース卒業生</dt>
+						<dd>
+							<h3>田村優実さん(23)</h3>
+							<p>はじめての受講でした。コメントコメントコメントコメントコメント</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<!--コース紹介-->
+		<div id="course">
+			<h2>コース内容紹介</h2>
+			<ul class="clearfix">
+				<li class="current">ウェヴデザイン</li>
+				<li>プログラミング</li>
+				<li>スマホアプリ</li>
+				<li>コピーライティング</li>
+				<li>フォト</li>
+			</ul>
+			<div class="redTop"></div>
+			<div id="courseInner">
+				<article class="clearfix">
+					<img src="images/test.jpg" alt="">
+					<div id="courseRight">
+						<h3>初心者向けのウェブデザインコース</h3>
+						<p>この講座では将来デザイナーを目指す大学生・若手社会人のために様々な授業を用意しています。</p>
+						<dl>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+						</dl>
+					</div>
+				</article>
+				<article class="clearfix">
+					<img src="images/test.jpg" alt="">
+					<div id="courseRight">
+						<h3>初心者向けのウェブデザインコース</h3>
+						<p>この講座では将来デザイナーを目指す大学生・若手社会人のために様々な授業を用意しています。</p>
+						<dl>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+						</dl>
+					</div>
+				</article>
+				<article class="clearfix last">
+					<img src="images/test.jpg" alt="">
+					<div id="courseRight">
+						<h3>初心者向けのウェブデザインコース</h3>
+						<p>この講座では将来デザイナーを目指す大学生・若手社会人のために様々な授業を用意しています。</p>
+						<dl>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+							<dt>開催日時</dt>
+							<dd>013年10月19日〜2013年10月19日</dd>
+						</dl>
+					</div>
+				</article>
+			</div>
+		</div>
+
+		<!--サイドバー-->
+		<div id="sideBar">
+			<h2>コース一覧</h2>
+			<dl>
+				<dt id="web">ウェヴデザイン</dt>
+				<dd id="web">test</dd>
+				<dt>プログラミング</dt>
+				<dd></dd>
+				<dt>プログラミング</dt>
+				<dd></dd>
+				<dt>スマホアプリ</dt>
+				<dd></dd>
+				<dt>フォトコピーライティング</dt>
+				<dd></dd>
+				<dt>フォト</dt>
+				<dd></dd>
+			</dl>
+		</div>
+	</div>
+
+	<!--フッター-->
+	<div id="toTop" class="clearfix">
+		<a href="##">トップページへ</a>
+	</div>
+	<footer>
+		<div id="footerInner">
+			<small>Copyright © 2016 sample site. All rights reserved.</small>
+		</div>
+	</footer>
+</body>
+</html>

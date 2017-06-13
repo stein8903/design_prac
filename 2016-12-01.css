@@ -1,0 +1,295 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+body{
+	background-color: #eaeae8;
+}
+a{
+	color: #134b88;
+	text-decoration: none;
+}
+a:hover{
+	color: #2871d7;
+}
+.clear{
+	clear: both;
+}
+/*ヘッダー
+=======================================================================*/
+header{
+	background: url(images/header_bg.jpg) repeat-x;
+	height: 90px;
+}
+#headerInner{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#headerLeft{
+	float: left;
+}
+#headerLeft h1{
+	font-size: 12px;
+}
+#headerRight{
+	float: right;
+}
+#headerRight #subNav ul li{
+	float: right;
+	font-size: 11px;
+	background: url(images/header_icon.gif) no-repeat left;
+	padding-left: 8px;
+	margin-left: 20px;
+}
+#headerRight nav ul li{
+	margin-top: 20px;
+	float: left;
+	font-size: 15px;
+	margin-left: 25px;
+}
+#headerRight nav ul li a{
+	font-weight: bold;
+}
+
+/*メイン
+=======================================================================*/
+#main{
+	background-color: white;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #c0c0c0;
+}
+#mainInner{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*コンテンツ
+=======================================================================*/
+#contents{
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+.redTop{
+	height: 4px;
+	background-color: #e73a51;
+}
+
+/*ニュース*/
+#news{
+	float: left;
+	width: 468px;
+	background-color: white;
+	height: 215px;
+}
+#newsInner{
+	padding: 15px;
+}
+#news h2{
+	font-size: 15px;
+	font-weight: bold;
+	background: url(images/voiceH2.gif) no-repeat left;
+	padding-left: 30px;
+	float: left;
+}
+#news #newsList{
+	float: right;
+	font-size: 12px;
+}
+#news dl{
+	margin-top: 10px;
+	font-size: 12px;
+	height: 150px;
+	line-height: 2;
+	overflow: scroll;
+}
+#news dl dt{
+	width: 20%;
+	float: left;
+}
+#news dl dd{
+	width: 80%;
+	float: left;
+}
+/*受講者の声*/
+#voice{
+	float: right;
+	width: 468px;
+	background-color: white;
+	height: 215px;
+}
+#voiceInner{
+	padding: 15px;
+}
+#voice h2{
+	font-size: 15px;
+	font-weight: bold;
+	background: url(images/voiceH2.gif) no-repeat left;
+	padding-left: 30px;
+	float: left;
+}
+#voice #newsList{
+	float: right;
+	font-size: 12px;
+}
+#voiceBottom{
+	margin-top: 10px;
+}
+#voiceBottom img{
+	float: left;
+}
+#voiceBottom dl{
+	float: right;
+	width: 273px;
+	font-size: 12px;
+}
+#voiceBottom dl h3{
+	font-size: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+/*コース紹介*/
+#course{
+	margin-top: 20px;
+	width: 655px;
+	float: left;
+}
+#course h2{
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 8px;
+	border-left: 8px solid #e73a51;
+	line-height: 1;
+}
+#course ul li{
+	float: left;
+	margin-top: 20px;
+	border-top: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-radius: 3px 3px 0 0;
+	background-color: white;
+	margin-right: 8px;
+	padding: 8px;
+	font-size: 12px;
+	cursor: pointer;
+}
+#course ul li.current{
+	color: white;
+	background-color: #e73a51;
+	border-top: 1px solid #e73a51;
+	border-left: 1px solid #e73a51;
+	border-right: 1px solid #e73a51;
+}
+#courseInner{
+	background-color: white;
+	padding: 15px;
+}
+#courseInner article{
+	border-bottom: 1px solid #c0c0c0;
+	padding-bottom: 11px;
+	margin-bottom: 11px;
+}
+#courseInner article.last{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+#courseInner img{
+	float: left;
+}
+#courseInner #courseRight{
+	float: right;
+	width: 455px;
+}
+#courseInner #courseRight h3{
+	font-size: 18px;
+	color: #e73a51;
+	font-weight: bold;
+}
+#courseInner #courseRight p{
+	font-size: 12px;
+	margin: 4px 0 4px 0;
+	padding-bottom: 4px;
+	border-bottom: 1px dotted #c0c0c0;
+}
+#courseInner #courseRight dl{
+	font-size: 12px;
+	line-height: 2;
+}
+#courseInner #courseRight dl dt{
+	width: 20%;
+	float: left;
+}
+#courseInner #courseRight dl dd{
+	width: 80%;
+	float: left;
+}
+
+/*サイドバー*/
+#sideBar{
+	float: right;
+	margin-top: 20px;
+	width: 285px;
+}
+#sideBar h2{
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 8px;
+	border-left: 8px solid #e73a51;
+	line-height: 1;
+}
+#sideBar dl{
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 40px;
+	background-color: white;
+	border-top: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-radius: 3px;
+}
+#sideBar dl dt{
+	font-weight: bold;
+	border-bottom: 1px solid #c0c0c0;
+	cursor: pointer;
+	background: url(images/sideancher.gif) no-repeat 261px;
+	padding-left: 10px;
+}
+#sideBar dl dd{
+	border-bottom: 1px solid #c0c0c0;
+	display: none;
+}
+
+/*フッター
+=======================================================================*/
+#toTop{
+	width: 960px;
+	margin: 0 auto;
+}
+#toTop a{
+	float: right;
+	display: block;
+	font-size: 12px;
+	float: right;
+	padding: 8px;
+	border-radius: 3px 3px 0 0;
+	background-color: #7d7d7d;
+	color: white;
+}
+footer{
+	background-color: #7d7d7d;
+	height: 200px;
+	color: #c0c0c0;
+}
+#footerInner{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 12px;
+}
