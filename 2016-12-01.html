@@ -5,24 +5,6 @@
 	<title>2016-12-01</title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="2016-12-01.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script>
-		//トップページへ
-		$(function(){
-			$("#toTop").click(function(){
-				$("html,body").animate({
-					scrollTop:0
-				},400)
-			});
-		});
-
-		//アーコディオン
-		$(function(){
-			$("#sideBar dt#web").click(function(){
-				$("#sideBar dd#web").slideToggle();
-			});
-		});
-	</script>
 </head>
 <body>
 	<!--ヘッダー-->
@@ -201,5 +183,25 @@
 			<small>Copyright © 2016 sample site. All rights reserved.</small>
 		</div>
 	</footer>
+
+	<!--js-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script>
+		//トップページへ
+		$(function(){
+			$("#toTop").click(function(){
+				$("html,body").animate({
+					scrollTop:0
+				},400)
+			});
+		});
+
+		//アーコディオン
+		$(function(){
+			$("#sideBar dt#web").click(function(){
+				$("#sideBar dd#web").slideToggle();
+			});
+		});
+	</script>
 </body>
 </html>
