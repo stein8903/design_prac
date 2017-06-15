@@ -27,8 +27,14 @@ git push
 
 ### Branchの活用
 
-git checkout -b new_branch
+git checkout -b ~~~~
 
 git commit -a -m "~~~~"
 
-git push origin new_branch
+git push origin ~~~~
+
+git checkout master
+
+git pull
+
+git branch -D ~~~~
