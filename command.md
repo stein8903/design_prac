@@ -25,7 +25,7 @@ git push -u origin master
 
 git push
 
-###Branchの活用
+### Branchの活用
 
 git checkout -b new_branch
 
