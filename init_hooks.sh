@@ -8,6 +8,7 @@ git add secret.php.encrypted
 EOS
 )
 echo "$PRE_COMMIT" > .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
 
 # pullした時merge直後に複合化する
 POST_MERGE=$(cat << EOS
@@ -16,6 +17,7 @@ gcloud kms decrypt --location global --keyring test --key quickstart --ciphertex
 EOS
 )
 echo "$POST_MERGE" > .git/hooks/post-merge
+chmod +x .git/hooks/post-merge
 
 # cloneした時に複合化される
 # POST_MERGE=$(cat << EOS
